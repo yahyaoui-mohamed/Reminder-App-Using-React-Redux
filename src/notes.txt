@@ -1,0 +1,22 @@
+---- Get Started With Redux ----
+
+-- Installation Steps --
+
+1) Install Redux and React Redux 
+=> npm install redux react-redux
+
+2) Import Redux and React Redux
+=> import {createStore} from "redux";
+=> import {Provider} from "react-redux";
+
+Note :
+- createStore is a Redux Method that allow us to create our store where data are saved. [A reducer parameter is obligatory while creating the store]
+- Provider is the application wrapper that allow us to bind our application and redux . [The Provider should have the store props]
+
+3) Creating the reducer
+
+- The redux reducer is a simple JavaScript Function that return some data.
+
+4) Creating The Action(s)
+
+- The Action is a Simple JavaScript Object that contains some property. [The property type is obligatory]
